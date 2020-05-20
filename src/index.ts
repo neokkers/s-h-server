@@ -18,11 +18,9 @@ const mount = async (app: Application) => {
   app.listen(process.env.PORT);
 
   console.log(yellowBold(`[app]: http://localhost:${process.env.PORT}`));
-
-  // ---
-
-  const players = await db.players.find({}).toArray();
-  console.log(players);
+  console.log(
+    yellowBold(`[app/api]: http://localhost:${process.env.PORT}/api`)
+  );
 };
 
 mount(express());

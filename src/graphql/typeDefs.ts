@@ -17,5 +17,6 @@ export const typeDefs = gql`
 
   type Mutation {
     deletePlayer(id: ID!): Player!
+    # addPlayer(input: Player!): Player!
   }
 `;

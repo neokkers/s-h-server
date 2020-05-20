@@ -9,6 +9,13 @@ export interface Player {
   lost: number;
   mainVillain: number;
 }
+export interface Game {
+  _id: ObjectId;
+  date: Date;
+  liberals: Player[];
+  villains: Player[];
+  liberalsWon: boolean;
+}
 
 export interface Database {
   players: Collection<Player>;

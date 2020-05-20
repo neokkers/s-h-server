@@ -14,11 +14,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/lodash.merge": "^4.6.6",
     "@types/mongodb": "^3.5.18",
     "apollo-server-express": "^2.13.1",
     "colors": "^1.4.0",
     "express": "^4.17.1",
     "graphql": "^15.0.0",
+    "lodash.merge": "^4.6.2",
     "mongodb": "^3.5.7"
   },
   "devDependencies": {
