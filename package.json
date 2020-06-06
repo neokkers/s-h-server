@@ -19,7 +19,7 @@
     "@types/lodash.merge": "^4.6.6",
     "@types/mongodb": "^3.5.18",
     "@types/node": "^13.13.4",
-    "apollo-server-express": "^2.13.1",
+    "apollo-server-express": "^2.14.2",
     "colors": "^1.4.0",
     "express": "^4.17.1",
     "lodash.merge": "^4.6.2",
