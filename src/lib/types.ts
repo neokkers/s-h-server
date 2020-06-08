@@ -11,12 +11,13 @@ export interface Player {
 }
 export interface Game {
   _id: ObjectId;
-  date: Date;
-  liberals: Player[];
-  villains: Player[];
+  date: string;
+  liberals: ObjectId[];
+  villains: ObjectId[];
   liberalsWon: boolean;
 }
 
 export interface Database {
   players: Collection<Player>;
+  games: Collection<Game>;
 }
